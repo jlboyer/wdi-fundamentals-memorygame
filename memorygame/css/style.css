@@ -19,6 +19,12 @@ a {
   font-weight: 600;
   font-size: 18px;
   text-decoration: none;
+  border-bottom: 2px solid transparent;
+  margin: 0 10px;
+}
+
+a:hover{
+    border-bottom: 2px solid white;
 }
 
 h2 {
@@ -56,4 +62,33 @@ main{
 */
 img{
     margin: 40px 8px 0 8px;
+}
+footer{
+    text-transform: uppercase;
+    padding: 0 20px;
+    background-color: #0D2C40;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight:500;
+}
+.copyright{
+    float:left;
+}
+.message{
+    float:right;
+}
+
+.clearfix:after{
+    visibility: hidden;
+    display:block;
+    content: " ";
+    clear:both;
+    height: 0;
+    font-size: 0;
+}
+
+.name{
+    color:#F15B31;
+    font-weight: 700;
 }
